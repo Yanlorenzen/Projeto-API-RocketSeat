@@ -15,13 +15,22 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ProductClientHub.Communication.Responses.ResponseClientJason",
+        "Type": "ProductClientHub.Communication.Responses.ResponseClientJson",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 201
+      },
+      {
+        "Type": "ProductClientHub.Communication.Responses.ResponseErrorMessagesJson",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       }
     ]
   },
